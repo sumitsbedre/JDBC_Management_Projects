@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class GetConnection {
 	public static Connection getCon() {
 		String user = "postgres";
-		String pswd = "astra369";
+		String pswd = "<Enter the password of ur postgresql>"; // eneter yout own password 
 		String url = "jdbc:postgresql://localhost:5432/employee_management_project";
 		
 		try {
@@ -25,3 +25,4 @@ public class GetConnection {
 		return null;
 	}
 }
+
