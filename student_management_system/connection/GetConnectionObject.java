@@ -8,7 +8,7 @@ public class GetConnectionObject {
 	public static Connection getConnection() {
 		String url = "jdbc:postgresql://localhost:5432/student_management_system";
 		String user = "postgres";
-		String pwd = "astra369";
+		String pwd = "<enter your own password >"; // enter the connection password given for the postgreSQL
 
 		try {
 			Class.forName("org.postgresql.Driver");
@@ -23,3 +23,4 @@ public class GetConnectionObject {
 		return null;
 	}
 }
+
