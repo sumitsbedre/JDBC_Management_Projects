@@ -14,3 +14,10 @@ Designed a layered architecture with Controller, DAO, Entity, and Connection mod
 Implemented database connectivity and query handling using PreparedStatement and JDBC APIs.
 
 Developed two independent modules: Employee Management and Student Management, each with dedicated database schemas.
+
+## What are Provided
+### Project files consist of:
+-  Connection Layer files
+-  Dao Layer (Data-Access-Object)
+-  Enitity Layer
+-  Controller Layer 
